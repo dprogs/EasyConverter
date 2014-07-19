@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="decimal_numbers">
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+</string-array>
+
+<string-array name="Category_selection">
+    <item>Longitud/Distancia</item>
+    <item>Masa</item>
+    <item>Volumen</item>
+    <item>Área</item>
+    <item>Temperatura</item>
+    <item>Velocidad</item>
+    <item>Presión</item>
+    <item>Fuerza</item>
+    <item>Energía</item>
+    <item>Potencia</item>
+    <item>Tiempo</item>
+    <item>Frecuencia</item>
+    <item>Ángulo</item>
+    <item>BIN,OCT,DEC and HEX</item>
+    <item>Almacenaje de datos</item>
+    <item>Aceite</item>
+    <item>Gas</item>
+</string-array>
+
+<string-array name="Category_Header">
+    <item>Unidades físicas</item>
+    <item>Sistemas del número</item>
+    <item>Recursos naturales</item>
+</string-array>
+
+<string-array name="Category_Angle">
+  	<item>radian</item>
+  	<item>grado</item>
+  	<item>minuto</item>
+  	<item>segundo</item>
+  	<item>círculo</item>
+  	<item>grad</item>
+  	<item>milésimo</item>    
+</string-array>
+
+<string-array name="Category_Data">
+    <item>bit</item>
+    <item>nibble</item>
+    <item>byte</item>
+    <item>word</item>
+    <item>double word</item>
+    <item>quad word</item>
+    <item>kilobit</item>
+    <item>megabit</item>
+    <item>gigabit</item>
+    <item>terabit</item>
+    <item>Kilobyte (KB)</item>
+    <item>Megabyte (MB)</item>
+    <item>Gigabyte (GB)</item>
+    <item>Terabyte (TB)</item>
+    <item>Petabyte (PB)</item>
+    <item>Exabyte (EB)</item>
+</string-array>
+
+<string-array name="Category_Energy">
+	<item>joule </item>
+    <item>ERG </item>
+    <item>kilowatt / hora </item>
+    <item>electrón-volt </item>
+    <item>calorías </item>
+    <item>kilogramo TNT </item>
+    <item>BTU </item>
+    <item>kilogramo-fuerza metros </item>
+    <item>Pie-libra fuerza </item>
+</string-array>
+
+<string-array name="Category_Freq">
+    <item>microHertz </item>
+    <item>Milihertz </item>
+    <item>hertz </item>
+    <item>kilohercios </item>
+    <item>megahertz </item>
+    <item>gigahertz </item>
+    <item>terahertz </item>
+</string-array>
+
+<string-array name="Category_Gas">
+    <item>metro cúbico </item>
+    <item>pie cúbico </item>
+    <item>tonelada LNG </item>
+    <item>litros </item>
+    <item>EE.UU. galón </item>
+    <item>galón británico </item>
+</string-array>
+
+<string-array name="Category_Length">
+    <item>milímetro </item>
+    <item>centímetro </item>
+    <item>decímetro </item>
+    <item>metros </item>
+    <item>kilometros </item>
+    <item>pies (internacional) </item>
+    <item>pulgadas </item>
+    <item>millas </item>
+    <item>patio </item>
+    <item>longitud del cable </item>
+</string-array>
+
+<string-array name="Category_Mass">
+     <item> miligramos </item>
+     <item> gramos </item>
+     <item> kilogramo </item>
+     <item> tonelada </item>
+     <item> grano </item>
+     <item> oz </item>
+     <item> libra </item>
+     <item> piedra </item>
+     <item> pood </item>
+     <item> quilates </item>
+</string-array>
+
+<string-array name="Category_Oil">
+     <item> barril </item>
+     <item> tonelada </item>
+     <item> litros </item>
+</string-array>
+
+<string-array name="Category_Pwr">
+     <item> watt </item>
+     <item> kilovatio </item>
+     <item> erg por segundo </item>
+     <item> caballos de fuerza </item>
+     <item> caballos de fuerza británica </item>
+     <item> calorías por segundo </item>
+     <item> kilocalorías por hora </item>
+     <item> BTU por segundo </item>
+     <item> kilogramo-fuerza metros por segundo </item>
+</string-array>
+
+<string-array name="Category_Pressure">
+     <item> bar </item>
+     <item> pascal </item>
+     <item> milímetros de mercurio </item>
+	 <item> atmósfera física </item> 
+	 <item> ambiente técnico </item>     
+	 <item> psi </item>
+     <item> pulgadas de mercurio </item>
+     <item> dinas por centímetro cuadrado </item>
+</string-array>
+
+<string-array name="Category_Power">
+     <item> newton </item>
+     <item> dinas </item>
+     <item> kilogramo-fuerza </item>
+     <item> libra-fuerza </item>
+     <item> kip </item>
+</string-array>
+
+<string-array name="Category_Speed">
+     <item> kilómetros por hora </item>
+     <item> metros por segundo </item>
+     <item> millas por hora </item>
+     <item> nudo </item>
+     <item> pie por segundo </item>
+</string-array>
+
+<string-array name="Category_Square">
+     <item> centímetro cuadrado </item>
+     <item> pulgada cuadrada </item>
+     <item> pies cuadrados </item>
+     <item> metro cuadrado </item>
+     <item> metro cuadrado </item>
+     <item> acre </item>
+     <item> Irish acre </item>
+     <item> Scottish acre </item>
+     <item> hectárea </item>
+     <item> dunam </item>
+     <item> milla cuadrada </item>
+     <item> un centenar de metros cuadrados </item>
+     <item> son </item>
+</string-array>
+
+<string-array name="Category_Temp">
+     <item> ° C (grados Celsius) </item>
+     <item> ° F (grados Fahrenheit) </item>
+     <item> ° K (grados Kelvin) </item>
+     <item> ° R (grados Rankine) </item>
+     <item> ° De(grados Delisle) </item>
+     <item> ° N (grado de Newton) </item>
+     <item> ° Re (grados Réaumur) </item>
+     <item> ° Ro (grado Rømer) </item>
+</string-array>
+
+<string-array name="Category_Time">
+     <item> segundos </item>
+     <item> nanosegundo </item>
+     <item> microsegundo </item>
+     <item> milisegundos </item>
+     <item> minutos </item>
+     <item> horas </item>
+     <item> día </item>
+     <item> semana </item>
+     <item> mes (valor aproximado) </item>
+     <item> años </item>
+     <item> siglo </item>
+     <item> milenio </item>
+</string-array>
+
+<string-array name="Category_Volume">
+     <item> metro cúbico </item>
+     <item> centímetro cúbico </item>
+     <item> milímetro cúbico </item>
+     <item> litros </item>
+     <item> decalitro (dal) </item>
+     <item> mililitro </item>
+     <item> EE.UU. galón líquido </item>
+     <item> cucharadita </item>
+     <item> cucharada </item>
+</string-array>
+
+    <string name="app_name">Easy Converter</string>
+    <string name="LANG_DEF">ESP</string>
+
+	<string name="MenuSettingsStr"> Configuración </string>
+    <string name="MenuInfoStr"> Acerca </string>
+    <string name="MenuExitStr"> Exit </string>
+    <string name="MenuDecimal"> Decimales </string>
+    <string name="MenuDecimalSum"> Conde de los lugares en la fracción decimal </string>
+    <string name="MenuCutZero"> Recorte ceros a la derecha </string>
+    <string name="MenuCutZeroSum"> ajuste ceros a la derecha del campo de resultado </string>
+    <string name="MenuVibroOn"> Vibrar al dorso </string>
+    <string name="MenuVibroOnSum"> vibre cuando se hace clic en botón de retroceso </string>
+    
+    <string name="CalcScreenFrom"> De </string>
+    <string name="CalcScreenTo"> Para </string>
+    <string name="CalcScreenValue"> Valor </string>
+    <string name="CalcScreenResult"> Resultado </string>
+    <string name="CalcScreenDescHeader"> Descripción </string>
+    <string name="CalcScreenDEC"> Decimal </string>
+    <string name="CalcScreenOCT"> Octal </string>
+    <string name="CalcScreenBIN"> Binario </string>
+    <string name="CalcScreenHEX"> Hexadecimal </string>
+
+    <string name="PopupEmptyField">Campo vacío</string>
+    <string name="PopupSelect">Seleccionado </string>
+    <string name="PopupMenuHeader">Menu </string>
+    <string name="PopupMenuText1">Copiar resultado para amortiguar</string>
+    <string name="PopupMenuResultCopied">El resultado ha sido copiado con éxito al portapapeles </string>
+    <string name="PopupMenuHeader2">Selección de unidad</string>
+    <string name="PopupMenuOKbutton">Aceptar</string>
+
+    <string name="description">Descripción </string>
+	 
+	<string name="AboutTitleStr">Acerca </string>
+    <string name="AboutProdNameStr">Fácil convertidor </string>
+    <string name="AboutProdVerStr">Versión: </string>
+    
+    <string name="AboutTextStr">Fácil conversor de unidades para diferentes conversiones de unidades. </string>
+    <string name="AboutDeveloperStr">Este software es desarrollado por la empresa TECNOLOGIAS. departamento de software dProgs </string>
+
+    <string name="AboutDevNameStr">Autor: Dmitriy Levin </string>
+    <string name="AboutDesignNameStr">Icono \ s diseño: Sergey Shevchenko </string>
+    
+    <string name="AboutEMAILStr">info@technologies.org.ua </string>
+    <string name="AboutURLStr">www.technologies.org.ua </string>
+    <string name="AboutPhoneNumber">+38-048-704-8350 </string>
+    <string name="AboutButtonStr">Aceptar </string>
+	 
+<string-array name="Description_Category_Angle">
+   <item>La unidad básica de medida de esquinas llanas en las matemáticas modernas </item>
+   <item>La unidad de medida de una esquina llana igual de partes 1/90 de un ángulo recto </item>
+   <item>La unidad de medida de esquinas llanas iguales de grados 1/60 </item>
+   <item>La unidad de medida de una esquina igual de partes 1/3600 de grado o minutos 1/60 </item>
+   <item>Unidad de medida de esquinas.  Una vuelta es igual al ángulo mínimo de la rotación 
+             en cual posición el sistema (asimétrico) coincide con la inicial </item>
+   <item>La unidad de medida de esquinas llanas iguales a una centésima parte de un ángulo recto </item>
+   <item>La unidad de medida de esquinas aceptadas en artillería e igualación de una parte seis mil de una vuelta </item>
+</string-array>    
+
+<string-array name="Description_Category_Data">
+	<item>Bit - una unidad de medida base de la cantidad de la información
+          (un bit en notación binaria) aceptar los valores 0 o 1 </item>
+    <item>Nibble - es una agregación de cuatro bits o media octeto o corresponde a un solo dígito hexadecimal </item>
+    <item>Byte - unidad de almacenamiento y procesamiento de la información digital.
+          En los sistemas informáticos modernos, el byte se considera igual a ocho bits </item>
+    <item>Word - Unidad de almacenamiento de la información a la igualdad de 2 bytes </item>
+    <item>Double word - Unidad de almacenamiento de la información a la igualdad de 4 bytes </item>
+    <item>Quadruple word - Unidad de almacenamiento de la información a la igualdad de 8 bytes </item>
+    <item>Kilobit - una unidad de medida de la cantidad de la información binaria </item>
+    <item>Megabit - cantidad de la información, lo que equivale 1000000 (millones) bits </item>
+    <item>Gigabit - cantidad de la información, la igualdad 100000000 (miles de millones) bits (1.000 MB) </item>
+    <item>Terabit - la cantidad de la información equitativa de 1000 GB </item>
+    <item>Kilobyte - una unidad de medida de la cantidad de la información, a la igualdad de 1.024 bytes </item>
+    <item>Megabyte - una unidad de medida de la cantidad de la información, a la igualdad de 1 048 576 bytes (1024 KB) </item>
+    <item>Gigabyte - una unidad múltiple de medida de la cantidad de la información, es igual a 1 073 741 824 bytes (1.024 MB) </item>
+    <item>Terabyte - una unidad de medida de la cantidad de la información, a la igualdad de 1 099 511 627 776 estándar (8-bit) bytes (1.024 GB) </item>
+    <item>Petabyte - una unidad de medida de la cantidad de la información, a la igualdad de 1024 TB </item>
+    <item>Exabyte - una unidad de medida de la cantidad de la información, a la igualdad de 1024 ES </item>
+</string-array>
+
+<string-array name="Description_Category_Energy">
+    <item>unidad Sacada de energía o trabajo o calor en el Sistema internacional de Unidades </item>
+    <item>La energía y unidad de medida de trabajo igual de 10 ^-7 J </item>
+    <item>unidad de medida Independiente de energía y el trabajo, 3 600 000 J iguales </item>
+    <item>unidad de medida Independiente de energía y el trabajo, igual 1,60217653 (14) ×10 ^ − 19 J </item>
+    <item>unidad de medida Independiente de energía y el trabajo, 4,19 J iguales </item>
+    <item>unidad de medida Independiente de energía y el trabajo, 4 612 000 J iguales </item>
+    <item>La energía y unidad de medida de trabajo igual de 1055,06 J </item>
+    <item>unidad de medida Independiente de energía y el trabajo, 9,81 J iguales </item>
+    <item>La energía y unidad de medida de trabajo igual de 1,36 J </item>
+</string-array>
+
+<string-array name="Description_Category_Freq">
+    <item>La unidad de medida de frecuencia igual de 10^-6 hercio </item>
+    <item>La unidad de medida de frecuencia igual de 10^-3 hercio </item>
+    <item>La unidad SI de frecuencia definida como el número de ciclos por segundo de un fenómeno periódico. 
+          1 Hz significa una ejecución de tal proceso durante un segundo: 1 Hz = 1/segundo </item>
+    <item>La unidad de medida de frecuencia igual a mil de hercio </item>
+    <item>La unidad de medida de frecuencia igual a un millón de hercio </item>
+    <item>La unidad de medida de frecuencia igual a mil millones de hercio </item>
+    <item>La unidad de medida de frecuencia igual al billón de hercio </item>
+</string-array>
+
+<string-array name="Description_Category_Gas">
+    <item>La unidad de medida de volumen igual a volumen de un cubo con longitud de bordes en 1 metro</item>
+    <item>La unidad de medida de volumen igual a volumen de un cubo con longitud de bordes en 1 pie</item>
+    <item>La unidad de medida de volumen igual a 1 tonelada de gas natural licuado</item>
+    <item>La unidad de medida métrica de volumen igual de 0,001 metro cúbico</item>
+    <item>La unidad de medida de volumen igual aproximadamente de 3,78 litros</item>
+    <item>La unidad de medida de volumen igual aproximadamente de 4,55 litros</item>
+</string-array>
+
+<string-array name="Description_Category_Length">
+    <item>La unidad de medida de longitud milésimoo metro igual </item>
+    <item>La unidad de medida de longitud igual de un 100mo metro </item>
+    <item>La unidad de medida de longitud igual de un décimo metro </item>
+    <item>La unidad de medida de longitud definida como distancia, 
+          pasado a la luz en vacío durante segundos 1/299 792 458 </item>
+    <item>La unidad de medida de longitud igual a mil de metros </item>
+    <item>unidad de medida No métrica de longitud </item>
+    <item>La unidad No métrica de longitud igual de 1/12 foots </item>
+    <item>La unidad de medida de longitud aplicó a la medida de distancias de viajes </item>
+    <item>La unidad de medida No métrica de longitud igual a tres foots </item>
+    <item>Una unidad de medida náutica igual a un décimo de una milla marina o 100 brazas, o a veces 120 brazas </item>
+</string-array>
+
+<string-array name="Description_Category_Mass">
+    <item>La unidad de medida de peso milliono kilogramo igual </item>
+    <item>La unidad de medida de peso milésimoo kilogramo igual </item>
+    <item>La unidad de medida de peso igual a peso del estándar de kilogramo de la Oficina internacional de medidas y balanzas </item>
+    <item>La unidad de medida de peso igual a mil de kilogramos </item>
+    <item>La unidad de medida de peso aplicó en la ciencia militar en los EE. UU y Gran Bretaña </item>
+    <item>La unidad de medida de peso igual de 1/16 libra </item>
+    <item>La unidad de medida de peso amplió en los países de habla inglesa </item>
+    <item>La unidad de medida británica de peso igual a 14 libras o 6,35029318 kilogramos </item>
+    <item>unidad de medida rusa Anticuada de peso </item>
+    <item>Unidad de medida de peso de joyas </item>
+</string-array>
+
+<string-array name="Description_Category_Oil">
+    <item>Unidad de medida de volumen del petróleo, 158,99 litros iguales </item>
+    <item>La unidad de medida de peso igual a mil de kilogramos </item>
+    <item>La unidad de medida métrica de volumen igual de 0,001 metro cúbico </item>
+</string-array>
+
+<string-array name="Description_Category_Pwr">
+    <item>Generador eléctrico de medida en sistema SI </item>
+    <item>La unidad de medida de poder 1000 vatios iguales </item>
+    <item>La unidad de medida de poder 10 ^ iguales − 7 vatios </item>
+    <item>La unidad de medida independiente de poder 735,50 vatios iguales </item>
+    <item>La unidad de medida independiente de poder 745,70 vatios iguales </item>
+    <item>La unidad de medida independiente de poder 4,19 vatios iguales </item>
+    <item>La unidad de medida independiente de poder 1,16 vatios iguales </item>
+    <item>La unidad de medida independiente de poder 1055,06 vatios iguales </item>
+    <item>La unidad de medida independiente de poder 9,80665 vatios iguales </item>
+</string-array>
+
+<string-array name="Description_Category_Pressure">
+    <item>La unidad de medida independiente de presión igual de 10^5 Papá </item>
+    <item>unidad de medida del Funcionario de presión en sistema SI </item>
+    <item>La unidad de medida independiente de presión igual de 133,32 Papá </item>
+    <item>La unidad de medida independiente de presión ~ igual de 101325 Papá </item>
+    <item>La unidad de medida independiente de presión ~ igual de 98066,5 Papá </item>
+    <item>La unidad de medida independiente de presión igual de 6894,76 Papá </item>
+    <item>La unidad de medida independiente de presión igual de 3386,38 Papá </item>
+    <item>La unidad de medida independiente de presión igual de 0,1 Papá </item>
+</string-array>
+
+<string-array name="Description_Category_Power">
+    <item>Unidad de medida de la Fuerza en SI. 1 N = 1 kilogramo · m · s-2 </item>
+    <item>La unidad de medida de fuerza 0,00001 N iguales </item>
+    <item>La unidad de medida de fuerza 9,81 N iguales </item>
+    <item>La unidad de medida de fuerza 4,45 N iguales </item>
+    <item>La unidad de medida de fuerza 4448,22 N iguales </item>
+</string-array>
+
+<string-array name="Description_Category_Speed">
+    <item>La unidad de medida de velocidad igual de 0,28 metros por segundo </item>
+    <item>La unidad de medida de velocidad igual a 3,6 kilómetros por hora </item>
+    <item>La unidad de medida de velocidad igual de 1,61 kilómetros por hora </item>
+    <item>La unidad de medida de velocidad igual a 1 milla por hora </item>
+    <item>La unidad de medida de velocidad igual de 1,1 kilómetros por hora </item>
+</string-array>
+
+<string-array name="Description_Category_Square">
+    <item>El área de un cuadrado con el partido de 1 centímetro </item>
+    <item>El área de un cuadrado con el partido de 1 pulgada </item>
+    <item>El área de un cuadrado con el partido de 1 pie </item>
+    <item>El área de un cuadrado con el partido de 1 yarda </item>
+    <item>La Unidad de medida del área de la tierra igual a un metro cuadrado </item>
+    <item>Unidad del área de la tierra igual a 4840 yardas cuadradas </item>
+    <item>Unidad del área de la tierra igual a 7840 yardas cuadradas </item>
+    <item>Unidad del área de la tierra igual a 5000 metros cuadrados </item>
+    <item>La Unidad de medida del área de la tierra 100 ars iguales </item>
+    <item>Usado en Israel, Líbano, Jordania y Turquía una unidad de medida igual de 1000 metros cuadrados </item>
+    <item>El área de un cuadrado con el partido de 1 pulgada </item>
+    <item>El área de un cuadrado con el partido 1 milla </item>
+    <item>El área de un cuadrado con el partido de 1 yarda </item>
+    <item>El nombre Familiar de una unidad de medida del área igual al área de un cuadrado con el partido de 10 metros </item>
+    <item>El nombre Familiar de una unidad de medida del área igual al área de un cuadrado con el partido de 10 metros </item> 
+ </string-array>
+
+<string-array name="Description_Category_Temp">
+	<item>La Unidad de medida de temperatura se aplicó en SI. Como la escala que comienza la temperatura de congelación del agua</item>
+	<item>La Unidad de medida de temperatura rara vez usado en una vida. En una de versiones, para 100 grados era la temperatura corporal de la esposa del inventor de una escala — Gabriel Farengejta</item>
+	<item>La Unidad de medida de temperatura se aplicó en SI. Como la escala que comienza el cero absoluto</item>
+	<item>Rara vez usaba la unidad de medida de la temperatura.  Como la escala que comienza el cero absoluto</item>
+	<item>Usado en Rusia a un siglo XVIII-th una unidad de medida de temperaturas se usa. Como cero la temperatura de ebullición del agua</item>
+	<item>es posible, la unidad de medida más vieja de la temperatura. Ya que la escala que comienza la temperatura de deshielo de la nieve se usó. Hoy día no se usa</item>
+	<item>Hoy día no unidad de medida usada de temperatura. Para un grado se considera que es la temperatura a la cual un espíritu de agua de la mezcla amplía en 1/1000</item>
+	<item>Hoy día no unidad de medida usada de temperatura. Como la escala que comienza la temperatura de congelación de la solución hidroclórica saciada</item>
+</string-array>
+
+<string-array name="Description_Category_Time">
+	<item>Unidad de medida del Tiempo en sistema SI</item>
+    <item>La Unidad de medida de tiempo igual a una fracción milliardth de un segundo</item>
+    <item>La Unidad de medida de tiempo igual a milliona fracción de un segundo</item>
+    <item>La Unidad de medida de tiempo igual a milésimoa fracción de un segundo</item>
+    <item>Unidad de medida del Tiempo en el sistema SI, para igualar 60 segundos</item>
+    <item>Unidad de medida del Tiempo en el sistema SI, para igualar 3600 segundos</item>
+    <item>La Unidad de medida de tiempo igual a 24 horas, 1440 minutos o 86400 segundos</item>
+    <item>Unidad de medida del Tiempo, igual hasta siete días</item>
+    <item>La Unidad de medida de tiempo igual a 30.. 31 días (el 28 de febrero)</item>
+    <item>La Unidad de medida de tiempo igual hasta 365 días (o hasta 366 días en un año bisiesto)</item>
+    <item>Unidad de medida del Tiempo, un centenar de años iguales</item>
+    <item>La Unidad de medida de tiempo igual a mil de años</item>
+</string-array>
+
+<string-array name="Description_Category_Volume">
+	<item>La Unidad de medida de volumen igual a volumen de un cubo con longitud de bordes en 1 metro</item>
+    <item>La Unidad de medida de volumen igual a volumen de un cubo con longitud de bordes en 1 centímetro</item>
+    <item>La Unidad de medida de volumen igual a volumen de un cubo con longitud de bordes en 1 milímetro</item>
+    <item>La Unidad de medida Métrica de volumen igual de 0,001 metro cúbico</item>
+    <item>La Unidad de medida de volumen igual a 10 litros. Se usa en la fabricación de vino</item>
+    <item>La Unidad de medida de volumen igual de 0,0010 litros</item>
+    <item>La Unidad de medida de volumen igual de 3,79 litros</item>
+    <item>La Unidad de medida de volumen igual de 4,93 mililitros</item>
+    <item>La Unidad de medida de volumen igual de 0,015 litros</item>
+</string-array>
+
+</resources>

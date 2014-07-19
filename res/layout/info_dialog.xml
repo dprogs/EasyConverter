@@ -1,0 +1,96 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Scroller" 
+    android:orientation="vertical"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+        
+	<LinearLayout 
+        android:id="@+id/layout_root"
+        android:orientation="vertical"
+        android:layout_width="300dip"
+        android:layout_height="320dip"
+        >
+        
+    <TextView android:id="@+id/info_prod"
+    		  android:text="@string/AboutProdNameStr"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20dip"
+              android:paddingLeft="4dip"
+              android:textColor="#FFF"
+              />
+    <TextView android:id="@+id/info_prod_ver"
+    		  android:text="@string/AboutProdVerStr"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="4dip"
+              android:textColor="#FFF"
+              />
+    <TextView android:id="@+id/info_text1"
+    		  android:text="@string/AboutTextStr"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="4dip"
+              android:textColor="#FFF"
+              />
+
+    <ImageView 
+    	android:id="@+id/info_image"
+        android:src="@drawable/item_border"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView android:id="@+id/info_text2"
+    		  android:text="@string/AboutDeveloperStr"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="4dip"
+              android:textColor="#FFF"
+              />
+    <TextView android:id="@+id/info_text3"
+    		  android:text="@string/AboutDevNameStr"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="4dip"
+              android:textColor="#FFF"
+              />
+    <TextView android:id="@+id/info_text4"
+    		  android:text="@string/AboutDesignNameStr"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="4dip"
+              android:textColor="#FFF"
+              />
+    <TextView android:id="@+id/info_email"
+    		  android:text="@string/AboutEMAILStr"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="4dip"
+              android:textColor="#FFF"
+              />
+    <TextView android:id="@+id/info_URL"
+    		  android:text="@string/AboutURLStr"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="4dip"
+              android:textColor="#FFF"
+              />
+    <TextView android:id="@+id/info_phone"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/AboutPhoneNumber"
+              android:paddingLeft="4dip"
+              android:textColor="#FFF"
+              />
+    <Button   android:id="@+id/info_button"
+              android:layout_width="120dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:text="@string/AboutButtonStr"
+              />
+              
+</LinearLayout>
+</ScrollView>

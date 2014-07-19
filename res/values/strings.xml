@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string-array name="decimal_numbers">
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+</string-array>
+
+<string-array name="Category_selection">
+    <item>Length/Distance</item>
+    <item>Mass</item>
+    <item>Volume</item>
+    <item>Area</item>
+    <item>Temperature</item>
+    <item>Velocity</item>
+    <item>Pressure</item>
+    <item>Force</item>
+    <item>Energy</item>
+    <item>Power</item>
+    <item>Time</item>
+    <item>Frequency</item>
+    <item>Angle</item>
+    <item>BIN,OCT,DEC and HEX</item>
+    <item>Data storage</item>
+    <item>Oil</item>
+    <item>Gas</item>
+</string-array>
+
+<string-array name="Category_Header">
+    <item>Physical units</item>
+    <item>Numeral systems</item>
+    <item>Natural resources</item>
+</string-array>
+
+<string-array name="Category_Angle">
+  	<item>radian</item>
+  	<item>degree</item>
+  	<item>minute</item>
+  	<item>second</item>
+  	<item>circle</item>
+  	<item>grad</item>
+  	<item>thousandth</item>    
+</string-array>
+
+<string-array name="Category_Data">
+    <item>bit</item>
+    <item>nibble</item>
+    <item>byte</item>
+    <item>word</item>
+    <item>double word</item>
+    <item>quad word</item>
+    <item>kilobit</item>
+    <item>megabit</item>
+    <item>gigabit</item>
+    <item>terabit</item>
+    <item>Kilobyte (KB)</item>
+    <item>Megabyte (MB)</item>
+    <item>Gigabyte (GB)</item>
+    <item>Terabyte (TB)</item>
+    <item>Petabyte (PB)</item>
+    <item>Exabyte (EB)</item>
+</string-array>
+
+<string-array name="Category_Energy">
+    <item>joule</item>
+    <item>ERG</item>
+    <item>kilowatt/hour</item>
+    <item>electron-volt</item>
+    <item>calorie</item>
+    <item>kilogram TNT</item>
+    <item>BTU</item>
+    <item>kilogram-force meter</item>
+    <item>foot-pound force</item>
+</string-array>
+
+<string-array name="Category_Freq">
+    <item>microhertz</item>
+    <item>millihertz</item>
+    <item>hertz</item>
+    <item>kilohertz</item>
+    <item>megahertz</item>
+    <item>gigahertz</item>
+    <item>terahertz</item>
+</string-array>
+
+<string-array name="Category_Gas">
+    <item>cubic meter</item>
+    <item>cubic foot</item>
+    <item>tonne LNG</item>
+    <item>liter</item>
+    <item>U.S. gallon</item>
+    <item>British gallon</item>
+</string-array>
+
+<string-array name="Category_Length">
+    <item>millimeter</item>
+    <item>centimeter</item>
+    <item>decimeter</item>
+    <item>meter</item>
+    <item>kilometer</item>
+    <item>foot (international)</item>
+    <item>inch</item>
+    <item>mile</item>
+    <item>yard</item>
+    <item>cable length</item>
+</string-array>
+
+<string-array name="Category_Mass">
+    <item>milligram</item>
+    <item>gram</item>
+    <item>kilogram</item>
+    <item>tonne</item>
+    <item>grain</item>
+    <item>ounce</item>
+    <item>pound</item>
+    <item>stone</item>
+    <item>pood</item>
+    <item>carat</item>
+</string-array>
+
+<string-array name="Category_Oil">
+    <item>barrel</item>
+    <item>tonne</item>
+    <item>liter</item>
+</string-array>
+
+<string-array name="Category_Pwr">
+    <item>watt</item>
+    <item>kilowatt</item>
+    <item>erg per second </item>
+    <item>horsepower</item>
+    <item>British horsepower </item>
+    <item>calorie per second </item>
+    <item>kilocalorie per hour </item>
+    <item>BTU per second</item>
+    <item>kilogram-force meter per second</item>
+</string-array>
+
+<string-array name="Category_Pressure">
+    <item>bar</item>
+    <item>pascal</item>
+    <item>millimeter mercury </item>
+    <item>physical atmosphere </item>
+    <item>technical atmosphere </item>
+    <item>psi</item>
+    <item>inch mercury </item>
+    <item>dyne per square centimeter</item>
+</string-array>
+
+<string-array name="Category_Power">
+    <item>newton</item>
+    <item>dyne</item>
+    <item>kilogram-force</item>
+    <item>pound-force</item>
+    <item>kip</item>
+</string-array>
+
+<string-array name="Category_Speed">
+    <item>kilometer per hour </item>
+    <item>meter per second</item>
+    <item>mile per hour</item>
+    <item>knot</item>
+    <item>foot per second</item>
+</string-array>
+
+<string-array name="Category_Square">
+    <item>square centimeter</item>
+    <item>square inch</item>
+    <item>square foot</item>
+    <item>square yard</item>
+    <item>square meter</item>
+    <item>acre</item>
+    <item>Irish acre</item>
+    <item>Scottish acre</item>
+    <item>hectare</item>
+    <item>dunam</item>
+    <item>square mile</item>
+    <item>one hundred of square metres</item>
+    <item>are</item>
+</string-array>
+
+<string-array name="Category_Temp">
+    <item>°C (degree Celsius)</item>
+    <item>°F (degrees Fahrenheit)</item>
+    <item>°K (degree Kelvin)</item>
+    <item>°R (degree Rankine)</item>
+    <item>°De (degree Delisle)</item>
+    <item>°N (degree Newton)</item>
+    <item>°Re (degree Réaumur)</item>
+    <item>°Ro (degree Rømer)</item>
+</string-array>
+
+<string-array name="Category_Time">
+    <item>second</item>
+    <item>nanosecond</item>
+    <item>microsecond</item>
+    <item>millisecond</item>
+    <item>minute</item>
+    <item>hour</item>
+    <item>day</item>
+    <item>week</item>
+    <item>month (approximate value)</item>
+    <item>year</item>
+    <item>century</item>
+    <item>millenium</item>
+</string-array>
+
+<string-array name="Category_Volume">
+    <item>cubic meter</item>
+    <item>cubic centimeter</item>
+    <item>cubic millimeter</item>
+    <item>liter</item>
+    <item>decalitre (dal)</item>
+    <item>milliliter</item>
+    <item>U.S. liquid gallon</item>
+    <item>teaspoon</item>
+    <item>tablespoon</item>
+</string-array>
+
+    <string name="app_name">Easy Converter</string>
+    <string name="LANG_DEF">ENG</string>
+
+    <string name="MenuSettingsStr">Settings</string>
+    <string name="MenuInfoStr">About</string>
+    <string name="MenuExitStr">Exit</string>
+
+    <string name="MenuDecimal">Decimal places</string>
+    <string name="MenuDecimalSum">Count of places in decimal fraction</string>
+    <string name="MenuCutZero">Trim trailing zeros</string>
+    <string name="MenuCutZeroSum">Trim trailing zeros in result field</string>
+    <string name="MenuVibroOn">Vibrate on Reverse</string>
+    <string name="MenuVibroOnSum">Vibrate when reverse button is clicked</string>
+    
+    <string name="CalcScreenFrom">From</string>
+    <string name="CalcScreenTo">To</string>
+    <string name="CalcScreenValue">Value</string>
+    <string name="CalcScreenResult">Result</string>
+    <string name="CalcScreenDescHeader">Description</string>
+    <string name="CalcScreenDEC">Decimal</string>
+    <string name="CalcScreenOCT">Octal</string>
+    <string name="CalcScreenBIN">Binary</string>
+    <string name="CalcScreenHEX">Hexadecimal</string>
+
+    <string name="PopupEmptyField">Empty field</string>
+    <string name="PopupSelect">Selected</string>
+    <string name="PopupMenuHeader">Menu</string>
+    <string name="PopupMenuText1">Copy result to buffer</string>
+    <string name="PopupMenuResultCopied">The result has been successfully copied to clipboard</string>
+    <string name="PopupMenuHeader2">Unit selection</string>
+    <string name="PopupMenuOKbutton">OK</string>
+
+    <string name="Description">Description!</string>
+    
+    <string name="AboutTitleStr">About</string>
+    <string name="AboutProdNameStr">Easy Converter</string>
+    <string name="AboutProdVerStr">Version: </string>
+    
+    <string name="AboutTextStr">Easy unit converter for various unit conversions.</string> 
+    <string name="AboutDeveloperStr">This software is developed by TECHNOLOGIES company. dProgs software department</string> 
+
+    <string name="AboutDevNameStr">Author: Levin Dmitriy</string> 
+    <string name="AboutDesignNameStr">Icon\s design: Shevchenko Sergey</string> 
+    
+    <string name="AboutEMAILStr"> info@technologies.org.ua</string>
+    <string name="AboutURLStr"> www.technologies.org.ua</string>
+    <string name="AboutPhoneNumber"> +38-048-704-8350</string>
+    <string name="AboutButtonStr">OK</string>
+    
+<string-array name="Description_Category_Angle">
+  	<item>The basic unit of measure of flat corners in the modern mathematics</item>
+  	<item>The unit of measure of a flat corner equal of 1/90 parts of a right angle</item>
+  	<item>The unit of measure of flat corners equal of 1/60 degrees</item>
+  	<item>The unit of measure of a corner equal of 1/3600 parts of degree or 1/60 minutes</item>
+  	<item>Unit of measure of corners. One turn is equal to the minimum angle of rotation 
+  	      at which position (asymmetrical) system coincides with the initial</item>
+  	<item>The unit of measure of flat corners equal to a hundredth part of a right angle</item>
+  	<item>The unit of measure of corners accepted in artillery and equaling one six-thousandth part of a turn</item>    
+</string-array>    
+
+<string-array name="Description_Category_Data">
+    <item>Bit — a base unit of measure of quantity of the information 
+          (one bit in binary notation) accepting values 0 or 1</item>
+    <item>Nibble — is a four-bit aggregation or half an octet or corresponds to a single hexadecimal digit</item>
+    <item>Byte — unit of storage and processing of the digital information. 
+          In modern computing systems the byte is considered equal to eight bits</item>
+    <item>Word - unit of storage of the information to equal 2 bytes</item>
+    <item>Double word - unit of storage of the information to equal 4 bytes</item>
+    <item>Quadruple word - unit of storage of the information to equal 8 bytes</item>
+    <item>Kilobit — a unit of measure of quantity of the binary information</item>
+    <item>Megabit — quantity of the information, equal 1000000 (million) bits</item>
+    <item>Gigabit — quantity of the information, equal 100000000 (billion) bits (1000 MB)</item>
+    <item>Terabit — the quantity of the information equal of 1000 GBs</item>
+    <item>Kilobyte — a unit of measure of quantity of the information, to equal 1024 bytes</item>
+    <item>Megabyte — a unit of measure of quantity of the information, to equal 1 048 576 bytes (1024 KB)</item>
+    <item>Gigabyte — a multiple unit of measure of quantity of the information, equal 1 073 741 824 byte (1024 MB)</item>
+    <item>Terabyte — a unit of measure of quantity of the information, to equal 1 099 511 627 776 standard (8-bit) bytes (1024 GB)</item>
+    <item>Petabyte — a unit of measure of quantity of the information, to equal 1024 TB</item>
+    <item>Exabyte — a unit of measure of quantity of the information, to equal 1024 PT</item>
+</string-array>
+
+<string-array name="Description_Category_Energy">
+    <item>Derived unit of energy or work or heat in the International System of Units</item>
+    <item>The energy and work unit of measure equal of 10 ^-7 J</item>
+    <item>Stand-alone unit of measure of energy and the work, equal 3 600 000 J</item>
+    <item>Stand-alone unit of measure of energy and the work, equal 1,60217653 (14) ×10 ^ − 19 J</item>
+    <item>Stand-alone unit of measure of energy and the work, equal 4,19 J</item>
+    <item>Stand-alone unit of measure of energy and the work, equal 4 612 000 J</item>
+    <item>The energy and work unit of measure equal of 1055,06 J</item>
+    <item>Stand-alone unit of measure of energy and the work, equal 9,81 J</item>
+    <item>The energy and work unit of measure equal of 1,36 J</item>
+</string-array>
+
+<string-array name="Description_Category_Freq">
+    <item>The unit of measure of frequency equal of 10^-6 hertz</item>
+    <item>The unit of measure of frequency equal of 10^-3 hertz</item>
+    <item>The SI unit of frequency defined as the number of cycles per second of a periodic phenomenon. 
+          1 Hz means one execution of such process for one second: 1 Hz = 1/sec</item>
+    <item>The unit of measure of frequency equal to one thousand of hertz</item>
+    <item>The unit of measure of frequency equal to one million of hertz</item>
+    <item>The unit of measure of frequency equal to billion of hertz</item>
+    <item>The unit of measure of frequency equal to trillion of hertz</item>
+</string-array>
+
+<string-array name="Description_Category_Gas">
+    <item>The unit of measure of volume equal to volume of a cube with length of edges in 1 meter</item>
+    <item>The unit of measure of volume equal to volume of a cube with length of edges in 1 foot</item>
+    <item>The unit of measure of volume equal to 1 ton of liquefied natural gas</item>
+    <item>The metric unit of measure of volume equal of 0,001 cubic meter</item>
+    <item>The unit of measure of volume equal approximately of 3,78 liters</item>
+    <item>The unit of measure of volume equal approximately of 4,55 liters</item>
+</string-array>
+
+<string-array name="Description_Category_Length">
+    <item>The unit of measure of length equal one thousandth meter</item>
+    <item>The unit of measure of length equal of the one 100-th meter</item>
+    <item>The unit of measure of length equal of the one tenth meter</item>
+    <item>The unit of measure of length defined as distance, 
+          passed by light in vacuum for 1/299 792 458 seconds</item>
+    <item>The unit of measure of length equal to one thousand of meters</item>
+    <item>Nonmetric unit of measure of length</item>
+    <item>The Nonmetric unit of length equal of 1/12 foots</item>
+    <item>The unit of measure of length applied to measurement of traveling distances</item>
+    <item>The Nonmetric unit of measure of length equal to three foots</item>
+	<item>A nautical unit of measure equal to one tenth of a nautical mile or 100 fathoms, or sometimes 120 fathoms</item>
+</string-array>
+
+<string-array name="Description_Category_Mass">
+    <item>The unit of measure of weight equal one millionth kg</item>
+    <item>The unit of measure of weight equal one thousandth kg</item>
+    <item>The unit of measure of weight equal to weight of the standard of kg of the International bureau of measures and scales</item>
+    <item>The unit of measure of weight equal to one thousand of kgs</item>
+    <item>The unit of measure of weight applied in military science in the USA and Great Britain</item>
+    <item>The unit of measure of weight equal of 1/16 pounds</item>
+    <item>The unit of measure of weight extended in the English-speaking countries</item>
+    <item>The British unit of measure of weight equal to 14 pounds or 6,35029318 kgs</item>
+    <item>Out-of-date Russian unit of measure of weight</item>
+    <item>Unit of measure of weight of jewels</item>
+</string-array>
+
+<string-array name="Description_Category_Oil">
+    <item>Unit of measure of volume of the oil, equal 158,99 liters</item>
+    <item>The unit of measure of weight equal to one thousand of kgs</item>
+    <item>The metric unit of measure of volume equal of 0,001 cubic meter</item>
+</string-array>
+
+<string-array name="Description_Category_Pwr">
+    <item>Power unit of measure in SI system</item>
+    <item>The unit of measure of power equal 1000 watt</item>
+    <item>The unit of measure of power equal 10 ^ − 7 watt</item>
+    <item>The stand-alone unit of measure of power equal 735,50 watt</item>
+    <item>The stand-alone unit of measure of power equal 745,70 watt</item>
+    <item>The stand-alone unit of measure of power equal 4,19 watt</item>
+    <item>The stand-alone unit of measure of power equal 1,16 watt</item>
+    <item>The stand-alone unit of measure of power equal 1055,06 watt</item>
+    <item>The stand-alone unit of measure of power equal 9,80665 watt</item>
+</string-array>
+
+<string-array name="Description_Category_Pressure">
+    <item>The stand-alone unit of measure of pressure equal of 10^5 Pa</item>
+    <item>Official unit of measure of pressure in SI system</item>
+    <item>The stand-alone unit of measure of pressure equal of 133,32 Pa</item>
+    <item>The stand-alone unit of measure of pressure equal ~ of 101325 Pa</item>
+    <item>The stand-alone unit of measure of pressure equal ~ of 98066,5 Pa</item>
+    <item>The stand-alone unit of measure of pressure equal of 6894,76 Pa</item>
+    <item>The stand-alone unit of measure of pressure equal of 3386,38 Pa</item>
+    <item>The stand-alone unit of measure of pressure equal of 0,1 Pa</item>
+</string-array>
+
+<string-array name="Description_Category_Power">
+    <item>Force unit of measure in SI. 1 N = 1 kg·m·s-2</item>
+    <item>The unit of measure of force equal 0,00001 N</item>
+    <item>The unit of measure of force equal 9,81 N</item>
+    <item>The unit of measure of force equal 4,45 N</item>
+    <item>The unit of measure of force equal 4448,22 N</item>
+</string-array>
+
+<string-array name="Description_Category_Speed">
+    <item>The unit of measure of speed equal of 0,28 meters per second</item>
+    <item>The unit of measure of speed equal to 3,6 kilometers per hour</item>
+    <item>The unit of measure of speed equal of 1,61 kilometers per hour</item>
+    <item>The unit of measure of speed equal to 1  mile per hour</item>
+    <item>The unit of measure of speed equal of 1,1 kilometers per hour</item>
+</string-array>
+
+<string-array name="Description_Category_Square">
+    <item>The area of a square with the party of 1 centimeter</item>
+    <item>The Area of a square with the party of 1 inch </item>
+    <item>The Area of a square with the party of 1 foot </item>
+    <item>The Area of a square with the party of 1 yard </item>
+    <item>The Unit of measure of the ground area equal to one square meter </item>
+    <item>Unit of the ground area equal to 4840 square yards </item>
+    <item>Unit of the ground area equal to 7840 square yards </item>
+    <item>Unit of the ground area equal to 5000 square meters </item>
+    <item>The Unit of measure of the ground area equal 100 ars </item>
+    <item>Used in Israel, Lebanon, Jordan and Turkey a unit of measure equal of 1000 square meters </item>
+    <item>The Area of a square with the party of 1 inch </item>
+    <item>The Area of a square with the party 1 mile </item>
+    <item>The Area of a square with the party of 1 yard </item>
+    <item>The Colloquial name of a unit of measure of the area equal to the area of a square with the party of 10 meters </item>
+    <item>The Colloquial name of a unit of measure of the area equal to the area of a square with the party of 10 meters </item>
+ </string-array>
+
+<string-array name="Description_Category_Temp">
+	<item> The Unit of measure of temperature applied in SI. As the scale beginning the temperature of freezing of water </item>
+	<item> The Unit of measure of temperature seldom used in a life. On one of versions, for 100 
+	       degrees was body temperature of the wife of the inventor of a scale — Gabriel Farengejta </item>
+	<item> The Unit of measure of temperature applied in SI. As the scale beginning the absolute zero </item>
+	<item> Seldom used unit of measure of temperature. As the scale beginning the absolute zero </item> 
+	<item> Used in Russia to a XVIII-th century a temperature unit of measure is used. As zero the temperature of boiling of water </item>
+	<item> It is possible, the oldest unit of measure of temperature. As the scale beginning the temperature of thawing of snow was used. Nowadays it is not used </item>
+	<item> Nowadays not used unit of measure of temperature. For one degree it is considered to be temperature at which a mix water-spirit extends on 1/1000 </item>
+	<item> Nowadays not used unit of measure of temperature. As the scale beginning the temperature of freezing of the sated hydrochloric solution </item>
+</string-array>
+
+<string-array name="Description_Category_Time">
+    <item>Time Unit of measure in SI system </item>
+    <item>The Unit of measure of time equal to one milliardth fraction of a second </item>
+    <item>The Unit of measure of time equal to one millionth fraction of a second </item>
+    <item>The Unit of measure of time equal to one thousandth fraction of a second </item>
+    <item>Time Unit of measure in the SI system, to equal 60 seconds </item>
+    <item>Time Unit of measure in the SI system, to equal 3600 seconds </item>
+    <item>The Unit of measure of time equal to 24 hours, 1440 minutes or 86400 seconds </item>
+    <item>Time Unit of measure, equal to seven days </item>
+    <item>The Unit of measure of time equal to 30..31 days (28 February) </item>
+    <item>The Unit of measure of time equal to 365 days (or to 366 days in a leap-year) </item>
+    <item>Time Unit of measure, equal one hundreds years </item>
+    <item>The Unit of measure of time equal to one thousand of years </item>
+</string-array>
+
+<string-array name="Description_Category_Volume">
+    <item>The Unit of measure of volume equal to volume of a cube with length of edges in 1 meter </item>
+    <item>The Unit of measure of volume equal to volume of a cube with length of edges in 1 centimeter </item>
+    <item>The Unit of measure of volume equal to volume of a cube with length of edges in 1 millimeter </item>
+    <item>The Metric unit of measure of volume equal of 0,001 cubic meter </item>
+    <item>The Unit of measure of volume equal to 10 liters. It is used in winemaking </item>
+    <item>The Unit of measure of volume equal of 0,0010 liters </item>
+    <item>The Unit of measure of volume equal of 3,79 liters </item>
+    <item>The Unit of measure of volume equal of 4,93 milliliters </item>
+    <item>The Unit of measure of volume equal of 0,015 liters </item>
+</string-array>
+
+</resources>

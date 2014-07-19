@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:title="@string/MenuSettingsStr">
+				<ListPreference
+  					android:key="eConv_Decimal"
+  					android:title="@string/MenuDecimal"
+	  				android:summary="@string/MenuDecimalSum"
+             	 	android:defaultValue="2"
+           		 	android:entries="@array/decimal_numbers"
+           		 	android:entryValues="@array/decimal_numbers" />       
+				 <CheckBoxPreference
+					android:key="eConv_CutZero"
+					android:title="@string/MenuCutZero"
+	  				android:summary="@string/MenuCutZeroSum"
+					android:defaultValue="true"/>
+				 <CheckBoxPreference
+					android:key="eConv_Vibro"
+					android:title="@string/MenuVibroOn"
+	  				android:summary="@string/MenuVibroOnSum"
+					android:defaultValue="true"/>
+			
+    				
+</PreferenceScreen>

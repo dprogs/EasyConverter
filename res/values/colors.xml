@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_theme_bg_color">#046380</color>
+
+    <color name="main_theme_bg_dark_color">#035770</color>
+    
+    <color name="tab_bg_color">#cdeeee</color>
+    <color name="item_pressed_color">#00a388</color>
+	<color name="calculate_area_bg_color">#00a388</color>
+	
+	<color name="edit_value_border_color">#43e100</color>
+
+	<color name="line_color">#1695a3</color>
+	<color name="spinner1_color">#bafff4</color>
+	<color name="spinner2_color">#8be4ff</color>
+	
+	<!-- Old values (1.12) -->
+    <color name="highLight">#4720c7</color>
+    <color name="bk">#000000</color>
+</resources>

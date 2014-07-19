@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.dprogs.EasyConverter"
+      android:installLocation="preferExternal"
+      android:versionCode="5" 
+      android:versionName="2.0">
+    <uses-sdk android:minSdkVersion="4" 
+        	  android:targetSdkVersion="8"/>
+
+    <application android:icon="@drawable/easy_conv_ico" 
+                 android:label="@string/app_name">
+        <activity android:name="com.dprogs.EasyConverter.Main"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<activity android:name="com.dprogs.EasyConverter.TempActivity"
+				  android:windowSoftInputMode="adjustPan|stateHidden"
+				  android:label="Температура">
+		</activity>
+
+ 		<activity android:name="CountSystemActivity"
+				  android:windowSoftInputMode="adjustPan|stateHidden"
+				  android:label="Системы счисления (DEC-HEX-OCT-BIN)">
+		</activity>    
+
+ 		<activity android:name="CalcActivity"
+				  android:windowSoftInputMode="adjustPan|stateHidden"
+				  android:label="...">
+		</activity>    
+ 		
+ 		<activity android:name="com.dprogs.EasyConverter.Preferences">
+		</activity>    
+</application>
+
+  
+    <uses-permission
+    	android:name="android.permission.VIBRATE"> 
+    </uses-permission> 
+    <uses-permission 
+    	android:name="android.permission.INTERNET"> 
+    </uses-permission>    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>
